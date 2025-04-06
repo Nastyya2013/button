@@ -1,0 +1,50 @@
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: CENTURY GOTHIC;
+    font-weight: 500;
+    background: transparent;
+    position: relative;
+    outline: none;
+  }
+  
+
+   .btn-5 {
+    margin-top: 15%;
+    margin-left: 45%;
+        width: 130px;
+        height: 40px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        background: rgb(55, 197, 182);
+      
+      }
+      .btn-5:hover {
+        color: #48D1CC;
+        background: transparent;
+         box-shadow:none;
+      }
+      .btn-5:before,
+      .btn-5:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #48D1CC;
+      }
+      .btn-5:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+      .btn-5:hover:before,
+      .btn-5:hover:after{
+        width:100%;
+        transition:800ms ease all;
+      }
